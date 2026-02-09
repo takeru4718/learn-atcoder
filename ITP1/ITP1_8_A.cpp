@@ -17,3 +17,14 @@ int main(){
     }
     cout << endl;
 }
+
+//別解
+// int main(){
+//     string s;
+//     getline(cin, s);
+//     for(int i=0;i<s.size();i++){
+//         if(s[i]>='a'&&s[i]<='z')s[i] += 'A'-'a';
+//         else if(s[i]>='A'&&s[i]<='Z')s[i] += 'a'-'A';
+//     }
+//     cout << s << endl;
+// }

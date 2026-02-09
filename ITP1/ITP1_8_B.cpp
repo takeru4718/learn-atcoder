@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int main(){
+    string x;
+    while(true){
+        cin >> x;
+        if(x == "0") break;
+
+        int sum = 0;
+        for(int i=0;i<x.size();i++){
+            sum += x.at(i) - '0';
+        }
+
+        cout << sum << endl;
+    }
+    
+}
